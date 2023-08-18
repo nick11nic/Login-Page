@@ -66,10 +66,12 @@
 /*mudar tamanho da imagem*/
 #social_media img {
     width: 35px;
+    transition: 0.3s;
 }
 
 #social_media img:hover {
     transform: scale(1.5,1.5); /*pra n bugar quando passa o mouse*/
+    transition: 0.3s;
 }
 
 #inputs {
@@ -127,8 +129,10 @@
     border-radius: 3px;
     font-weight: bold;
     cursor: pointer;
+    transition: 0.3s; /*tempo de transição*/
 }
 
 #login_button:hover {
     transform: scale(1.05);
+    transition: 0.3s; /*tempo de transição*/
 }
